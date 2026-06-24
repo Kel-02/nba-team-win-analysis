@@ -95,3 +95,24 @@ Teams with higher turnover rates tended to have lower winning percentages.
 ## Business Question 2
 
 - Are advanced metrics better predictors of winning than traditional box score statistics?
+
+
+## Advanced Metrics Analysis
+
+Advanced team metrics were analyzed to determine whether efficiency-based statistics better explain team success than traditional box-score metrics.
+
+### Strongest Correlations with Winning Percentage
+
+| Metric | Correlation |
+|----------|----------|
+| Net Rating | 0.967 |
+| Offensive Rating | 0.792 |
+| True Shooting Percentage | 0.678 |
+| Effective Field Goal Percentage | 0.678 |
+| Defensive Rating | -0.711 |
+
+### Key Insight
+
+Advanced efficiency metrics were substantially more predictive of winning percentage than traditional counting statistics such as rebounds, assists, and points scored.
+
+Net Rating emerged as the strongest predictor of team success across the 2021-22 through 2024-25 NBA seasons.
