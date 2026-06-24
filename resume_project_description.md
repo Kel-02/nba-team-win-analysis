@@ -1,0 +1,3 @@
+NBA Team Success Analysis | Python, Pandas, Scikit-learn, Github 
+
+Analyzed 120 NBA team-season observations from 2021-22 through 2024-25 using Python and the NBA Stats API. Performed exploratory data analysis, correlation analysis, and regression modeling to identify factors associated with winning percentage. Determined that Net Rating (r = 0.97) was the strongest predictor of team succes and developed a framework for identifying teams that overperformed or underperformed expectations. 

@@ -6,113 +6,72 @@ This project analyzes NBA team statistics from the 2021-22 through 2024-25 seaso
 
 ## Business Question
 
-Which team statistics are most strongly associated with winning in the NBA?
+Which statistics best explain NBA team success?
 
 ## Dataset
 
-Source: NBA Stats API (nba_api)
+Source: NBA Stats API 
 
-Seasons:
-- 2021-22
-- 2022-23
-- 2023-24
-- 2024-25
-
-Observations:
-- 120 team-season records
-- 30 NBA teams across four seasons
+- 4 NBA seasons (2021-2025)
+- 120 Team-Season Observations
+- Traditional and Advanced Team Metrics
 
 ## Tools Used
 
 - Python
 - Pandas
-- Jupyter Notebook
-- Matplotlib
+- Matplotlib 
 - Seaborn
+- Scikit-learn
+- Jupyter Notebook
 - Git
+- GitHub 
 
 ## Methodology
 
 1. Retrieved team statistics using the NBA Stats API.
 2. Combined four seasons into a single dataset.
 3. Performed exploratory data analysis.
-4. Calculated correlations between team metrics and winning percentage.
-5. Visualized relationships using heatmaps and bar charts.
+4. Conducted correlation analysis.
+5. Built a regression model using Net Rating 
+6. Identified overperforming and underperforming teams. 
 
-## Key Findings
-
-### Point Differential Was the Strongest Predictor of Winning
-
-PLUS_MINUS showed a correlation of 0.97 with winning percentage.
-
-### Shooting Efficiency Matters
-
-Three-point percentage and overall field-goal percentage showed strong positive relationships with winning.
-
-### Turnovers Negatively Impact Success
-
-Teams with higher turnover rates tended to have lower winning percentages.
-
-## Future Improvements
-
-- Add advanced metrics (Offensive Rating, Defensive Rating)
-- Build an interactive Power BI dashboard
-- Develop predictive models for playoff qualification
-
-## Visualizations
+## Tradition Metrics Findings
 
 ### Correlation Matrix
 
 ![Correlation Matrix](outputs/correlation_matrix.png)
 
-### Drivers of Winning
+### Top Drivers of Winning 
 
-![Drivers of Winning](outputs/top_drivers_of_winning.png)
+![Top Drivers](outputs/top_drivers_of_winning.png)
 
+Key Findings: 
 
-## Skills Demonstrated
+- Net Rating: 0.97
+- Offensive Rating: 0.79
+- True SHooting Percentage: 0.68
+- Effective Field Goal Percentage: 0.68
+- Defensive Rating: -0.71
 
-- Python
-- Pandas
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Correlation Analysis
-- Data Visualization
-- Git
-- GitHub
-- Jupyter Notebook
+## Overperformers vs Underperformers
 
+The project compared actual winning percentage to winning percentage predicted by Net Rating. 
 
-## Key Findings
+Key Overperformers:
 
-- Point differential (PLUS_MINUS) showed the strongest relationship with winning percentage (r = 0.97).
+- Milwaukee Bucks (2022-23)
+- Portland Trail Blazers (2021-22)
+- Los Angeles Lakers (2024-25)
 
-- Three-point shooting percentage showed a stronger relationship with winning percentage (r = 0.67) than overall field goal percentage (r = 0.61).
+Key Underperformers:
 
-- Turnovers demonstrated a moderate negative relationship with winning percentage (r = -0.53).
+- Indiana Pacers (2021-22)
+- San Antonio Spurs (2021-22)
+- Boston Celtics (2021-22)
 
+## Key Conclusions
 
-## Business Question 2
+Advanced efficieny metrics explain team success substantially better than traditional box score statistics. 
 
-- Are advanced metrics better predictors of winning than traditional box score statistics?
-
-
-## Advanced Metrics Analysis
-
-Advanced team metrics were analyzed to determine whether efficiency-based statistics better explain team success than traditional box-score metrics.
-
-### Strongest Correlations with Winning Percentage
-
-| Metric | Correlation |
-|----------|----------|
-| Net Rating | 0.967 |
-| Offensive Rating | 0.792 |
-| True Shooting Percentage | 0.678 |
-| Effective Field Goal Percentage | 0.678 |
-| Defensive Rating | -0.711 |
-
-### Key Insight
-
-Advanced efficiency metrics were substantially more predictive of winning percentage than traditional counting statistics such as rebounds, assists, and points scored.
-
-Net Rating emerged as the strongest predictor of team success across the 2021-22 through 2024-25 NBA seasons.
+Net Rating emerged as the strongest predictor of winning percentage across all four NBA seasons analyzed. 
