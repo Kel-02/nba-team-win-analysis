@@ -36,7 +36,7 @@ Source: NBA Stats API
 5. Built a regression model using Net Rating 
 6. Identified overperforming and underperforming teams. 
 
-## Tradition Metrics Findings
+## Traditional Metrics Findings
 
 ### Correlation Matrix
 
@@ -45,6 +45,17 @@ Source: NBA Stats API
 ### Top Drivers of Winning 
 
 ![Top Drivers](outputs/top_drivers_of_winning.png)
+
+Key Findings: 
+
+- Point Differential (PLUS_MINUS): 0.97
+- Three Point Percentage: 0.67
+- Field Goal Percentage: 0.61
+- Turnovers: -0.53
+
+## Advanced Metrics Findings 
+
+![Advanced Metrics](outputs/advanced_metrics_correlation.png)
 
 Key Findings: 
 
