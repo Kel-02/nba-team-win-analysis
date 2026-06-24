@@ -58,3 +58,13 @@ Teams with higher turnover rates tended to have lower winning percentages.
 - Add advanced metrics (Offensive Rating, Defensive Rating)
 - Build an interactive Power BI dashboard
 - Develop predictive models for playoff qualification
+
+## Visualizations
+
+### Correlation Matrix
+
+![Correlation Matrix](outputs/correlation_matrix.png)
+
+### Drivers of Winning
+
+![Drivers of Winning](outputs/top_drivers_of_winning.png)
