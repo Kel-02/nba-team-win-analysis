@@ -92,3 +92,6 @@ Teams with higher turnover rates tended to have lower winning percentages.
 - Turnovers demonstrated a moderate negative relationship with winning percentage (r = -0.53).
 
 
+## Business Question 2
+
+- Are advanced metrics better predictors of winning than traditional box score statistics?
