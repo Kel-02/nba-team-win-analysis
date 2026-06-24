@@ -1,5 +1,12 @@
 # NBA Team Success Analysis
 
+## Dashboard Preview 
+
+![](outputs/advanced_metrics_correlation.png)
+![](outputs/correlation_matrix.png)
+![](outputs/overperformers.png)
+
+
 ## Project Overview
 
 This project analyzes NBA team statistics from the 2021-22 through 2024-25 seasons to determine which performance metrics are most strongly associated with winning percentage.
@@ -86,3 +93,9 @@ Key Underperformers:
 Advanced efficieny metrics explain team success substantially better than traditional box score statistics. 
 
 Net Rating emerged as the strongest predictor of winning percentage across all four NBA seasons analyzed. 
+
+## Business Recommendations 
+
+NBA organizations should prioritize efficiency-based metrics over traditional counting statistics when evaluating team performance.
+
+Net Rating, Offensive Rating, and True Shooting Percentage explained winning substantially better than rebounds or assists, suggesting these metrics should receive greater emphasis in roster construction and stategic planning. 
