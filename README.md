@@ -68,3 +68,27 @@ Teams with higher turnover rates tended to have lower winning percentages.
 ### Drivers of Winning
 
 ![Drivers of Winning](outputs/top_drivers_of_winning.png)
+
+
+## Skills Demonstrated
+
+- Python
+- Pandas
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Correlation Analysis
+- Data Visualization
+- Git
+- GitHub
+- Jupyter Notebook
+
+
+## Key Findings
+
+- Point differential (PLUS_MINUS) showed the strongest relationship with winning percentage (r = 0.97).
+
+- Three-point shooting percentage showed a stronger relationship with winning percentage (r = 0.67) than overall field goal percentage (r = 0.61).
+
+- Turnovers demonstrated a moderate negative relationship with winning percentage (r = -0.53).
+
+
